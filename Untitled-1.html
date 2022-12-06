@@ -1,0 +1,80 @@
+<HTML>
+
+<head>
+</head>
+
+<body>
+    <style>
+        .section {
+            margin: 60px 0
+        }
+
+        .content {
+            display: flex
+        }
+
+        .container {
+            max-width: 1170px margin: 0 auto padding: 0 30px
+        }
+
+        .catalog_flex {
+            display: flex flex_wrap: wrap margin: 0 -15px -30px
+        }
+
+        .catalog_col {
+            width: 25% padding: 0 15px 30px
+        }
+
+        @media (max-width: 1199.98px) {
+            .catalog_col {
+                width: 33.33333333%
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .catalog_col {
+                width: 50%
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .catalog_col {
+                width: 100%
+            }
+        }
+    </style>
+
+    <div class="section">
+        <div class="content">
+            <div class="container">
+
+
+                <div class="catalog">
+                    <div class="catalog_flex">
+                        <div class="catalog_col" style="
+                        display: flex"> 
+                            <div class="catalog_card card">
+                                <div class="card_title">Lorem ipsum dolor sit amet</div>
+                                <div class="card_text">Lorem ipsum dolor sit amet, consectetum adipisicing elit, set do eiusmod</div>
+                                <div class="card_button"> <a href="">Button</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_col">
+                                <div class="catalog_card card">
+                                    <div class="card_title">Lorem ipsum dolor sit amet</div>
+                                    <div class="card_text">Lorem ipsum dolor sit amet, consectetum adipisicing elit, sed
+                                        do eiusmod</div>
+                                    <div class="card_button"><a href="">Button</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</HTML>
